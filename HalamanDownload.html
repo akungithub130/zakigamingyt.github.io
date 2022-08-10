@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>Halaman Download</title>
+</head>
+<body>
+
+<hr>
+	<center>
+		<p><h3>II</h3></p>
+		<div class="TitleDownload"><p><b>download</b></p></div>
+		<br>
+		<hr>
+		<p>Klik tombol dibawah ini untuk mendownload file dari Rasya Mahmud</p>
+		<hr>
+		<br>
+<!-- For Go Back -->
+<div class="GoBack">
+	<ul>
+		<li><a href="Home Menu.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+		<li><b>Go Back</b></li>
+	</ul>
+</div>
+
+<!-- Dark/Light Mode -->
+			<style>
+				.darkmode {
+					background: #333333;
+					color: white;
+				}
+			</style>
+
+			<script>
+				if(localStorage.getItem('theme') == 'dark')
+					setDarkMode()
+
+				function setDarkMode() {
+					let emoticon = ''
+					let isDark = document.body.classList.toggle('darkmode')
+
+					if(isDark) {
+						emoticon = '☀️'
+						localStorage.setItem('theme', 'dark')
+					} else {
+						emoticon = '🌙'
+						localStorage.removeItem('theme')
+					}
+					document.getElementById('darkBtn').innerHTML = emoticon
+				}
+			</script>
+
+<br>
+		<a class="tombol" href="https://minecraft.novaskin.me/search?q=Rasya+Mahmud"><i class="fab fa-download"></i></a>
+		<p><h3>Minecraft Skin</h3></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Thank You Title -->
+<div class="TxtTkD"><p><b>Terima kasih karena sudah mau mendukung Rasya Mahmud.</b></p></div>
+<div class="TxtTken"><p><b>Thank you for wanting to support Rasya Mahmud.</b></p></div>
+</center>
+<!-- My Copyright -->
+ 	<div id="copyright">
+		<div class="Copyr">
+			&copy; 2022 <b>Rasya Mahmud.</b> All Rights Reserved.
+		</div>
+	</div>
+
+
+</body>
+</html>

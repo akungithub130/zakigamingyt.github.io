@@ -1,0 +1,494 @@
+*, 
+html, 
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+.fContainer {
+	display: flex;
+	width: 100%;
+	height: 17vh;
+	
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	padding: 15px;
+	width: 100%;
+	height: 80px;
+	background-color: #222;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.5em;
+	padding: 15px;
+	text-transform: capitalize;
+}
+
+.firstname {
+ color: white;
+ font-weight: 700;
+}
+
+.lastname {
+ color: crimson;
+ font-weight: 500;
+ padding: 2px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation > li {
+	list-style-type: none;
+	padding: 15px;
+}
+
+.navigation > li > a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+	color: crimson;
+	transition: all .3s ease-in-out;
+} 
+
+.navigation >li >img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.navigation >li>img:hover {
+	width: 65px;
+	height: 65px;
+	border-radius: 65px;
+	transition: all .3s ease-in-out;
+}
+
+.active {
+	background-color: crimson;
+	color: white;
+	padding: 15px;
+}
+
+.active:hover {
+	color: white !important;
+}
+
+.TitleDownload {
+		color:;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.TitleLink >p>b>a:hover {
+		color: crimson;
+	transition: all .3s ease-in-out;
+}
+
+.TitleLink >p>b>a {
+			color: blue;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.TitleSupport {
+			color:;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+
+.TitleSaweria >p>a {
+					color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.TitleTrakteer >dt>b>a {
+					color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.TitleSociaBuzz >dt>b>a {
+					color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.TitleSaweria >p>a:hover {
+			color: white;
+	transition: all .3s ease-in-out;
+}
+
+.TitleTrakteer >dt>b>a:hover {
+			color: white;
+	transition: all .3s ease-in-out;
+}
+
+.TitleSociaBuzz >dt>b>a:hover {
+			color: white;
+	transition: all .3s ease-in-out;
+}
+
+.TitleSocialMedia {
+				color:;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+
+body {
+	background-color: white;
+	overflow-x: ;
+}
+
+hr {
+	background-color: black;
+	padding: 1px;
+	border: 1px;
+}
+
+.TitleWeb {
+	font-family: fantasy;
+	font-size: 60px;
+	text-transform: capitalize;
+}
+
+.GambarMc {
+	background-color: black;
+	width: 350px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.FG >p {
+	font-family: fantasy;
+	font-size: 50px;
+	text-transform: capitalize;
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "comic sans ms";
+	color: black;
+}
+
+.Copyr {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+#copyright {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top: 50px;
+}
+
+.TxtTkS {
+	font-size: 25px;
+	padding-top: 300px;
+}
+
+.TxtTkD {
+	font-size: 25px;
+	padding-top: 15px;
+}
+
+.TxtTkSM {
+	font-size: 25px;
+	padding-top: 250px;
+}
+
+.TxtTken {
+	font-size: 15px;
+}
+
+.GoBack >ul>li {
+	display: inline-block;
+	font-size: 20px;
+}
+
+.GoBack >ul>li>a {
+	color: black;
+}
+
+.GoBack >ul>li>b {
+	color: black;
+}
+
+.buttonSaweria {
+	background-color: #616d79;
+	height: 60px;
+	width: 300px;
+	padding-top: 5px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttonTrakteer {
+		background-color: #616d79;
+	height: 60px;
+	width: 300px;
+	padding-top: 5px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttonSociaBuzz {
+		background-color: #616d79;
+	height: 60px;
+	width: 300px;
+	padding-top: 5px;
+	box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttonSaweria:hover {
+	transform: scale(1.2);
+	color: black;
+}
+
+.buttonSaweria:hover i{
+	transform: scale(1.2);
+	color: white;
+}
+
+.buttonTrakteer:hover {
+	transform: scale(1.2);
+	color: black;
+}
+
+.buttonTrakteer:hover i{
+	transform: scale(1.2);
+	color: white;
+}
+
+.buttonSociaBuzz:hover {
+	transform: scale(1.2);
+	color: black;
+}
+
+.buttonSociaBuzz:hover i{
+	transform: scale(1.2);
+	color: white;
+}
+
+.icon{
+	position: absolute;
+	top: 55%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+.tombol{
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: #f1f1f1;
+	margin: 10px;
+	border-radius: 30%;
+	box-sizing: 0 5px 15px -5px #00000070;
+	overflow: hidden;
+	position: relative;
+	color: #2980b9;
+}
+
+.tombol i{
+	transition: 0.2s linear;
+	font-size: 26px;
+	line-height: 90px;
+}
+
+.tombol:hover i{
+	transform: scale(1.3);
+	color: white;
+}
+
+.tombol::before{
+	content: "";
+	position: absolute;
+	width: 120px;
+	height: 120px;
+	left: -110%;
+	top: 90%;
+	transform: rotate(45deg);
+	background: #3498db;
+}
+
+.tombol:hover::before{
+	left: -10%;
+	top: -10%;
+	animation: aaa 0.7s 1;
+}
+@keyframes aaa{
+	0%{
+	left: -110%;
+	top: 90%;
+	}
+	50%{
+	left: 10%;
+	top: -30%;
+	}
+	100%{
+	left: -10%;
+	top: -10%;
+	}
+}
+
+.mode {
+	padding: 5px;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 320px) {
+	html{
+	}
+}
+
+@media screen and (min-height: 1400px) {
+	html{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 991.98px) {
+	.Copyr {
+		width: 90%;
+	}
+}
+
+
+.menu-toggle {
+	display: none;
+	flex-direction: column;
+	height: 20px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.menu-toggle input {
+	position: absolute;
+	width: 40px;
+	height: 28px;
+	left: -6px;
+	top: -6px;
+	opacity: 0;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.menu-toggle span {
+	display: block;
+	width: 28px;
+	height: 3px;
+	background-color: white;
+	border-radius: 3px;
+	transition: all 0.5s;
+}
+
+.menu-toggle span:nth-child(2) {
+	transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+	transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+	background-color: white;
+	transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+	background-color: white;
+	transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+	opacity: 0;
+	transform: scale(0);
+}
+
+
+@media screen and (max-width: 768px) {
+	nav ul {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 504px) {
+	.menu-toggle {
+		display: flex;
+	}
+	.navigation {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 50%;
+		height: 100vh;
+		justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+		background-color: #222;
+		box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);;
+		z-index: 0;
+		transform: translateY(-100%);
+		transition: all 1s;
+		opacity: 0;
+
+	}
+	nav ul.slide {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@media screen and (max-width: 504px) {
+	.mode {
+		display: ;
+	}
+}
+
+@media screen and (max-width: 504px) {
+	.GambarMc {
+		width: 350px;
+	}
+}
+
+@media screen and (min-width: 505px) {
+	.GambarMc {
+		width: 475px;
+	}
+
+	img {
+		width: 475px;
+	}
+}

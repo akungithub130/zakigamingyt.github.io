@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<title>Halaman Social Media</title>
+</head>
+<body>
+<!-- Social Media Title -->
+<center>
+		<p><h3>III</h3></p>
+		<div class="TitleSocialMedia"><p><b>social media</b></p></div>
+		<hr>
+		<br>
+		<div class="GoBack">
+			<ul>
+				<li><a href="Home Menu.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+				<li><b>Go Back</b></li>
+			</ul>
+		</div>
+
+<!-- Dark/Light Mode -->
+			<style>
+				.darkmode {
+					background: #333333;
+					color: white;
+				}
+			</style>
+
+			<script>
+				if(localStorage.getItem('theme') == 'dark')
+					setDarkMode()
+
+				function setDarkMode() {
+					let emoticon = ''
+					let isDark = document.body.classList.toggle('darkmode')
+
+					if(isDark) {
+						emoticon = '☀️'
+						localStorage.setItem('theme', 'dark')
+					} else {
+						emoticon = '🌙'
+						localStorage.removeItem('theme')
+					}
+					document.getElementById('darkBtn').innerHTML = emoticon
+				}
+			</script>
+		
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="icon">
+		<a class="tombol" href="https://www.youtube.com/channel/UCCy9XwQbPZv45daCzwLE_Jw"><i class="fab fa-youtube"></i></a>
+		<a class="tombol" href="https://twitter.com/DimianMark?s=09"><i class="fab fa-twitter"></i></a>
+		<a class="tombol" href="https://www.instagram.com/dimianrasya/"><i class="fab fa-instagram"></i></a>
+		<a class="tombol" href="https://discord.com/invite/xW7ptW2"><i class="fab fa-discord"></i></a>
+	</div>
+	<!-- Thank You Title -->
+	<div class="TxtTkSM"><p><b>Terima kasih atas kunjungan kalian ke Social Media Rasya Mahmud.</b></p>
+	</div>
+	<div class="TxtTken"><p><b>Thank you for your visit to Rasya Mahmud's Social Media.</b></p>
+	</div>
+ </center>
+<!-- My Copyright -->
+ 	<div id="copyright">
+		<div class="Copyr">
+			&copy; 2022 <b>Rasya Mahmud.</b> All Rights Reserved.
+		</div>
+	</div>
+
+
+</body>
+</html>

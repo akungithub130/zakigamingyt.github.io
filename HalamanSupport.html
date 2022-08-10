@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+	<title>Halaman Support</title>
+</head>
+<body>
+<!-- Support Title -->
+<center>
+<p><h3>I</h3></p>
+<div class="TitleSupport"><p><b>support</b></p></div>
+<hr>
+<p>Bagi yang mau donasi silahkan klik tombol dibawah ini yaa:)</p>
+<hr>
+<br>
+<!-- For Go Back -->
+<div class="GoBack">
+	<ul>
+		<li><a href="Home Menu.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+		<li><b>Go Back</b></li>
+	</ul>
+</div>
+
+<!-- Dark/Light Mode -->
+			<style>
+				.darkmode {
+					background: #333333;
+					color: white;
+				}
+			</style>
+
+			<script>
+				if(localStorage.getItem('theme') == 'dark')
+					setDarkMode()
+
+				function setDarkMode() {
+					let emoticon = ''
+					let isDark = document.body.classList.toggle('darkmode')
+
+					if(isDark) {
+						emoticon = '☀️'
+						localStorage.setItem('theme', 'dark')
+					} else {
+						emoticon = '🌙'
+						localStorage.removeItem('theme')
+					}
+					document.getElementById('darkBtn').innerHTML = emoticon
+				}
+			</script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<div class="icon">
+		<a class="tombol" href="https://saweria.co/RasyaMahmud"><i class="fab fa-dollar"></i></a>
+		<p><h5>Saweria</h5></p>
+		<p><h5>(Min. Rp.10.000)</h5></p>
+		<a class="tombol" href="https://trakteer.id/rasya-mahmud-yvoxb"><i class="fab fa-dollar"></i></a>
+		<p><h5>Trakteer</h5></p>
+		<p><h5>(Min. Rp.5.000)</h5></p>
+		<a class="tombol" href="https://sociabuzz.com/rasyamahmud/donate/"><i class="fab fa-dollar"></i></a>
+		<p><h5>SociaBuzz</h5></p>
+		<p><h5>(Min. Rp.1.000)</h5></p>
+	</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Thank You Title -->
+<div class="TxtTkS"><p><b>Terima kasih atas semua support yang kalian berikan kepada Rasya Mahmud.</b></p></div>
+<div class="TxtTken"><p><b>Thank you for all the support you gave to Rasya Mahmud.</b></p></div>
+</center>
+<!-- My Copyright -->
+ 	<div id="copyright">
+		<div class="Copyr">
+			&copy; 2022 <b>Rasya Mahmud.</b> All Rights Reserved.
+		</div>
+	</div>
+
+
+</body>
+</html>
